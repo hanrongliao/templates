@@ -1,0 +1,14 @@
+@import "./screen.scss";
+@import "./var.scss";
+@import "./margin.scss";
+@import "./padding.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+// 重置echarts容器大小, v-chart组件时候autoresize属性后必须的类名
+.echarts-resize {
+  width: 100% !important;
+  height: 100% !important;
+}

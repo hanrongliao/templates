@@ -1,0 +1,10 @@
+// 配置设计稿适应屏幕大小
+$baseWidth: 1920;
+$baseHeight: 1080;
+
+@function vw($px) {
+  @return ($px / $baseWidth) * 100vw;
+}
+@function vh($px) {
+  @return ($px / $baseHeight) * 100vh;
+}

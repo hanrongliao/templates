@@ -1,0 +1,23 @@
+$from: 4; // 起点
+$to: 40; // 终点
+$interval: 4; // 间隔
+
+@for $i from $from to $to {
+  .m-#{$i} {
+    margin: #{$i}px;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}px;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}px;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}px;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}px;
+  }
+  $i: $i + $interval
+}
+
